@@ -1,0 +1,45 @@
+.todo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.4rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-top: 1rem;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(219, 191, 3, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+
+
+.title {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.completed {
+  margin-left: 1rem;
+  color: black;
+}
+
+.checkbox {
+  margin-left: 1rem;
+}
+
+.buttonDelete {
+  color: white;
+  background-color: red;
+  width: 6rem;
+  margin-left: 0.7rem;
+  
+}
+
+.buttonEdit {
+  color: white;
+  background-color: black;
+  width: 6rem;
+}
